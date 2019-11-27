@@ -1,21 +1,16 @@
 
-import React, { Component } from 'react';
+// /**
+//  * Routes:
+//  *      - src/router/PrivateRouter
+//  */
 
-export default class extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  };
+import React from 'react'
 
-  componentDidMount() {
-
-  };
-
-  render() {
-    return (
-      <div>
-首页
-      </div>
-    );
-  }
+export default function index(props, context) {
+  // console.log(props, context);
+  return (
+    <div>
+        主页
+    </div>
+  )
 }
