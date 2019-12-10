@@ -19,6 +19,7 @@ export default class extends Component {
   }
 
   render() {
+    console.log(this.props);
     return (
       <div>
         <input type="text" value={this.state.name}

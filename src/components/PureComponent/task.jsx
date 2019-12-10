@@ -8,7 +8,7 @@ export default class extends Component {
   static propTypes = {
     name:PropTypes.string.isRequired,
     isFinish:PropTypes.bool.isRequired,
-  }
+  };
 
   constructor(props) {
     super(props);

@@ -21,7 +21,7 @@ export default class extends Component {
       tasks:ts
     });
   };
-  handleAdd = newTask => {
+  handleAdd(newTask) {
     this.setState({
       tasks:[...this.state.tasks,newTask]
     })
@@ -32,7 +32,7 @@ export default class extends Component {
     return (
       <div>
         <AddTask
-          onAdd={this.handleAdd()}
+          onAdd={(newTask) => this.handleAdd(newTask)}
         />
         <TaskList tasks={this.state.tasks}/>
       </div>
