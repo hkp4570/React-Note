@@ -5,12 +5,13 @@
 //  */
 
 import React from 'react'
+import Memo from '@/components/Memo';
 
 export default function index(props, context) {
   // console.log(props, context);
   return (
     <div>
-        主页
+        <Memo />
     </div>
   )
 }
