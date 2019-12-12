@@ -9,7 +9,7 @@ function List(props) {
     {title:'HTML'},
     {title:'CSS'},
     {title:'JavaScript'},
-  ]
+  ];
   return (
     <ul>
       {

@@ -28,7 +28,10 @@ export default (props,{location}) => {
           <Menu theme='dark' mode='inline' >
             <SubMenu title='React'>
               <Menu.Item>
-                <NavLink to='/study/hook'>Hook</NavLink>
+                <NavLink to='/study/useState'>useState</NavLink>
+              </Menu.Item>
+              <Menu.Item>
+                <NavLink to='/study/useEffect'>useEffect</NavLink>
               </Menu.Item>
               <Menu.Item>
                 <NavLink to='/study/PureComponent'>pureComponent</NavLink>
