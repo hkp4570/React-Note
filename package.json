@@ -12,7 +12,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-router-breadcrumbs-hoc": "^3.2.4",
+    "umi-request": "^1.2.15"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",

@@ -4,45 +4,50 @@ import React from 'react';
 import { Layout, Row, Col, Menu } from 'antd';
 import { NavLink } from "umi"
 import styles from "./index.css"
-const { Header,Sider,Content,Footer } = Layout;
+const { Header, Sider, Content, Footer } = Layout;
 const { SubMenu } = Menu;
 
-export default (props,{location}) => {
+export default (props, { location,routes }) => {
   if (props.location.pathname === "/login") {
     //登录页
     return props.children;
   }
   else {
     return (
-    <Layout>
-      <Header>
-        <Row className={styles.header} type='flex' justify='space-between'>
-          <Col>
-            <NavLink to='/'>React</NavLink>
-          </Col>
-          <Col>欢迎你</Col>
-        </Row>
-      </Header>
-      <Layout className={styles.main}>
-        <Sider>
-          <Menu theme='dark' mode='inline' >
-            <SubMenu title='React'>
-              <Menu.Item>
-                <NavLink to='/study/useState'>useState</NavLink>
-              </Menu.Item>
-              <Menu.Item>
-                <NavLink to='/study/useEffect'>useEffect</NavLink>
-              </Menu.Item>
-              <Menu.Item>
-                <NavLink to='/study/PureComponent'>pureComponent</NavLink>
-              </Menu.Item>
-            </SubMenu>
-          </Menu>
-        </Sider>
-        <Content>{props.children}</Content>
+      <Layout>
+        <Header>
+          <Row className={styles.header} type='flex' justify='space-between'>
+            <Col>
+              <NavLink to='/'>React</NavLink>
+            </Col>
+            <Col>欢迎你</Col>
+          </Row>
+        </Header>
+        <Layout className={styles.main}>
+          <Sider>
+            <Menu theme='light' mode='inline'>
+              <SubMenu title='React'>
+                <Menu.Item>
+                  <NavLink to='/study/useState'>useState</NavLink>
+                </Menu.Item>
+                <Menu.Item>
+                  <NavLink to='/study/useEffect'>useEffect</NavLink>
+                </Menu.Item>
+                <Menu.Item>
+                  <NavLink to='/study/PureComponent'>pureComponent</NavLink>
+                </Menu.Item>
+              </SubMenu>
+              <SubMenu title='demo'>
+                <Menu.Item>
+                  <NavLink to='/demo/DemoHook'>DemoHook</NavLink>
+                </Menu.Item>
+              </SubMenu>
+            </Menu>
+          </Sider>
+          <Content>{props.children}</Content>
+        </Layout>
+        <Footer className={styles.footer}>版权</Footer>
       </Layout>
-      <Footer className={styles.footer}>版权</Footer>
-    </Layout>
     )
   }
 }

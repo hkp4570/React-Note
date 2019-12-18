@@ -2,6 +2,9 @@
 // ref: https://umijs.org/config/
 
 export default {
+  theme:{
+    "primary-color":'#13c2c2',
+  },
   treeShaking: true,
   // outputPath:"./out",      //使用umi build后，打包的目录名称，默认./dist
   // history:"hash",          //history对象模式（默认是browser）
@@ -37,4 +40,10 @@ export default {
       },
     }],
   ],
+  proxy:{
+    '/api':{
+      target:'http://open.duyiedu.com',
+      changeOrigin:true
+    }
+  }
 }

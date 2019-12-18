@@ -8,9 +8,9 @@ body {
   margin: 0;
 }
 
-/*.ant-layout .ant-layout-header{*/
-/*  background: #fff;*/
-/*}*/
-/*.ant-layout-sider{*/
-/*  background: #fff;*/
-/*}*/
+.ant-layout .ant-layout-header{
+  background: #fff;
+}
+.ant-layout-sider{
+  background: #fff;
+}
