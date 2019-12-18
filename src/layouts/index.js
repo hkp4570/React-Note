@@ -36,6 +36,9 @@ export default (props, { location,routes }) => {
                 <Menu.Item>
                   <NavLink to='/study/PureComponent'>pureComponent</NavLink>
                 </Menu.Item>
+                <Menu.Item>
+                  <NavLink to='/study/hoc'>hoc</NavLink>
+                </Menu.Item>
               </SubMenu>
               <SubMenu title='demo'>
                 <Menu.Item>
