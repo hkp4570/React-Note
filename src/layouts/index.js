@@ -41,6 +41,9 @@ export default (props, { location,routes }) => {
                 <Menu.Item>
                   <NavLink to='/demo/DemoHook'>DemoHook</NavLink>
                 </Menu.Item>
+                <Menu.Item>
+                  <NavLink to='/demo/renderProps'>renderProps</NavLink>
+                </Menu.Item>
               </SubMenu>
             </Menu>
           </Sider>
