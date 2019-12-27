@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
 import { Card } from 'antd';
-import { A,B } from '@/components/HOC/Common';
+import { A, B } from '@/components/HOC/Common';
 import WithLog from '@/components/HOC/withLog';
 import WithLogin from '@/components/HOC/withLogin';
 const ALog = WithLog(WithLogin(A));

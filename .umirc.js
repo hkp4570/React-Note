@@ -1,9 +1,9 @@
 
 // ref: https://umijs.org/config/
-
+/* eslint-disable */
 export default {
-  theme:{
-    "primary-color":'#13c2c2',
+  theme: {
+    "primary-color": '#13c2c2',
   },
   treeShaking: true,
   // outputPath:"./out",      //使用umi build后，打包的目录名称，默认./dist
@@ -40,10 +40,10 @@ export default {
       },
     }],
   ],
-  proxy:{
-    '/api':{
-      target:'http://open.duyiedu.com',
-      changeOrigin:true
+  proxy: {
+    '/api': {
+      target: 'http://open.duyiedu.com',
+      changeOrigin: true
     }
   }
 }

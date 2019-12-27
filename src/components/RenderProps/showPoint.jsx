@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
 import { Card } from 'antd';
 import styles from '@/components/RenderProps/style.css';
 
@@ -8,8 +7,8 @@ export default class extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      x:0,
-      y:0
+      x: 0,
+      y: 0
     };
   };
 
@@ -20,8 +19,8 @@ export default class extends PureComponent {
   componentWillUnmount() {
 
   };
-  handleMove(e){
-    const {left,top} = this.point.current.getBoundingClientRect();
+  handleMove(e) {
+    const { left, top } = this.point.current.getBoundingClientRect();
     const x = e.clientX - left;
     const y = e.clientY - top;
     this.setState({

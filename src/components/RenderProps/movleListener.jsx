@@ -1,5 +1,5 @@
+/* eslint-disable */
 import React, { PureComponent } from 'react';
-import { connect } from 'dva';
 import { Card } from 'antd';
 import styles from './style.css';
 
@@ -8,8 +8,8 @@ export default class extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      x:0,
-      y:0
+      x: 0,
+      y: 0
     };
   };
 
@@ -20,8 +20,8 @@ export default class extends PureComponent {
   componentWillUnmount() {
 
   };
-  handleMove(e){
-    const { left,top } = this.divRef.current.getBoundingClientRect();
+  handleMove(e) {
+    const { left, top } = this.divRef.current.getBoundingClientRect();
     const x = e.clientX - left;
     const y = e.clientY - top;
     this.setState({
@@ -33,7 +33,7 @@ export default class extends PureComponent {
   render() {
     return (
       <Card>
-        <div ref={this.divRef} className={styles.point} onMouseMove={(e)=>this.handleMove(e)}>
+        <div ref={this.divRef} className={styles.point} onMouseMove={(e) => this.handleMove(e)}>
           {
             this.props.render ? this.props.render(this.state) : ''
           }

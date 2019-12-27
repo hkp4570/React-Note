@@ -1,3 +1,4 @@
+/* eslint-disable */
 import request from './request';
 import { notification } from 'antd';
 import { router } from 'umi';
@@ -29,7 +30,7 @@ const raw = (url, options) => {
 	};
 	return request(url, newOptions).then(data => {
 		if (data instanceof Response) {
-			if (data.status != 200) {
+			if (data.status !== 200) {
 				return { errCode: data.status, errMsg: 'invalid response' };
 			}
 		}
