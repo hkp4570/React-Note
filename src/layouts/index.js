@@ -48,6 +48,11 @@ export default (props, { location,routes }) => {
                   <NavLink to='/demo/renderProps'>renderProps</NavLink>
                 </Menu.Item>
               </SubMenu>
+              <SubMenu title='Context'>
+                <Menu.Item>
+                  <NavLink to='/Context/Context'>Context</NavLink>
+                </Menu.Item>
+              </SubMenu>
             </Menu>
           </Sider>
           <Content>{props.children}</Content>
