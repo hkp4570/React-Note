@@ -28,7 +28,7 @@ export default class Context extends PureComponent{
   }
 }
 
-class ChildB extends PureComponent<any,any>{
+class ChildB extends PureComponent{
   static contextType = ctx;
   render(){
     return(
