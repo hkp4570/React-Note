@@ -1,22 +1,35 @@
 import React, { useState, useEffect } from 'react';
 
-function Test() {
+let n = 1;
+// 副作用函数在每次注册时，会覆盖掉之前的副作用函数，因此，尽量保持副作用函数稳定，否则控制起来会比较复杂。
+// 不要使用
+function func1() {
+  console.log('odd 副作用函数');
+  return () => {
+    console.log('odd 清理函数');
+  };
+}
+
+function func2() {
+  console.log('even 副作用函数');
+  return () => {
+    console.log('even 清理函数');
+  };
+}
+
+export default function App() {
   const [, forceUpdate] = useState({});
-  console.log('渲染Test');
-  useEffect(() => {
-    console.log('挂载函数，仅在挂载时运行一次');
-    return () => {
-      console.log('清理函数，仅在卸载时运行一次');
-    };
-  }, []); // 使用空数组作为依赖项，则副作用函数仅在挂载的时候运行
+  useEffect(n % 2 === 0 ? func2 : func1);
+  n++;
   return (
     <div>
-      <button onClick={() => forceUpdate({})}>强制刷新</button>
+      <button
+        onClick={() => {
+          forceUpdate({});
+        }}
+      >
+        强制刷新
+      </button>
     </div>
   );
 }
-function App(props) {
-  return <div></div>;
-}
-
-export default App;
