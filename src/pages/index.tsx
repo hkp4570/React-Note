@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './index.less';
+import App from '@/pages/useEffect/app';
 
 export default () => {
   return (
     <div>
-      <h1 className={styles.title}>Page index</h1>
+      <App />
     </div>
   );
 };
