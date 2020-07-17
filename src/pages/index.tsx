@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '@/pages/customHook/app';
+import App from '@/pages/refHook/app';
 
 export default () => {
   return (
