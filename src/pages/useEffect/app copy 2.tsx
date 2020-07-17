@@ -43,7 +43,7 @@ function MovableBlock(props) {
         position: 'fixed',
         background: '#f40',
       }}
-    ></div>
+    />
   );
 }
 
