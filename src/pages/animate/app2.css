@@ -1,0 +1,62 @@
+.container {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.comp-container {
+  height: 100px;
+  position: relative;
+}
+
+.comp-container .title {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.exit-active{
+  transition: 1s;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+.exit-done{
+  display: none;
+}
+.enter,
+.appear{
+  display: block;
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+.enter-active,
+.appear-active {
+  transition: 1s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+/* 自定义样式 */
+/*.test-enter {*/
+/*  opacity: 0;*/
+/*}*/
+
+/*.test-enter-active {*/
+/*  opacity: 1;*/
+/*  transition: 2s;*/
+/*}*/
+
+/*.test-exit {*/
+/*  opacity: 1;*/
+/*}*/
+
+/*.test-exit-active{*/
+/*  transition: 2s;*/
+/*  opacity: 0;*/
+/*}*/
+
+/*.test-exit-done{*/
+/*  opacity: 0;*/
+/*}*/
