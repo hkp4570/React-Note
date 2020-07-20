@@ -20,23 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07a43163-ba17-4aea-941d-ac99f467e278" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts./index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react_umi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typings.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts./index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typings.d.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +58,8 @@
         <option value="TypeScript JSX File" />
         <option value="Less File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -64,6 +75,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -84,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595051244803</updated>
       <workItem from="1595051246020" duration="1239000" />
+      <workItem from="1595232099943" duration="373000" />
     </task>
     <servers />
   </component>
@@ -100,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重新创建" />
