@@ -20,32 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07a43163-ba17-4aea-941d-ac99f467e278" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react_umi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterComp/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterGuard/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App copy 2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App copy 3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App copy 4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App copy 5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App copy 6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App copy 7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterInfo/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterOtherComp/App copy 2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterOtherComp/App copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterOtherComp/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterOtherComp/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RouterOtherComp/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nestingRouter/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protectRouter/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protectRouter/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protectRouter/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protectRouter/Personal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protectRouter/ProtectedRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/protectRouter/loginInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts./index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +60,17 @@
         <option value="TypeScript JSX File" />
         <option value="Less File" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eqZmr9dqxVR0fL4n8VzrNusuiQ" />
@@ -75,14 +82,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\webs\react_umi\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="D:\webstorm\WebStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="SvnConfiguration">
@@ -96,8 +111,23 @@
       <option name="presentableId" value="Default" />
       <updated>1595051244803</updated>
       <workItem from="1595051246020" duration="1239000" />
-      <workItem from="1595232099943" duration="373000" />
+      <workItem from="1595232099943" duration="6828000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1595232508176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595232508176</updated>
+    </task>
+    <task id="LOCAL-00002" summary="公共组件">
+      <created>1595233123389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595233123389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,13 +146,24 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="重新创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新创建" />
+    <MESSAGE value="初始化" />
+    <MESSAGE value="公共组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="公共组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="301" key="EditFileWatcherDialog" timestamp="1595051587391">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="654" y="301" key="EditFileWatcherDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1595051587391" />
+    <state x="381" y="251" key="SettingsEditor" timestamp="1595234410532">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="381" y="251" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1595234410532" />
+    <state x="667" y="273" key="Vcs.Push.Dialog.v2" timestamp="1595233126712">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1595233126712" />
   </component>
 </project>
