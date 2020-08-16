@@ -1,22 +1,9 @@
-import React,{useReducer} from 'react';
-import Pagination from './components/Pagination/Pagination';
+import React, {useState, useEffect} from 'react';
 
-function reducer (state,action) {
-
-}
-function App() {
-  const [data,setData] = useReducer(reducer,[],(args) => {
-    for (let i = 0; i < 30; i++) {
-      args.push(i + 1);
-    }
-    return args;
-  });
-  
+export default function (props) {
   return (
-    <div>
-      <Pagination data={data} initial={2} pageMax={6} />
-    </div>
+      <div>
+        函数组件
+      </div>
   );
 }
-
-export default App;
