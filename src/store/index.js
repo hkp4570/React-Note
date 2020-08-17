@@ -1,8 +1,9 @@
-import { createStore } from "redux";
+import { createStore,applyMiddleware } from "redux";
 import * as userAction from './action/usersAction';
 import reducer from './reducer';
+import logger from 'redux-logger';
 
-const store = createStore(reducer);
+const store = createStore(reducer,applyMiddleware(logger));
 
 
 const unListen = store.subscribe(() => {
