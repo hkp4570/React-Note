@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 
-export default function (props) {
+export default function () {
   return (
       <div>
         函数组件
