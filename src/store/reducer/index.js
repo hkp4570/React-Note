@@ -1,5 +1,6 @@
 import loginUser from './loginUser';
 import user from './user';
+import count from './count';
 import {combineReducers} from 'redux';
 
 // export default (state={},action) => {
@@ -13,4 +14,5 @@ import {combineReducers} from 'redux';
 export default combineReducers({
   loginUser,
   user,
+  count,
 })
