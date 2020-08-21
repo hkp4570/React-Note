@@ -6,6 +6,7 @@ export const UPDATEUSER = Symbol('update-user');
 // export const SETUSERS = Symbol('set-users');
 export const SETUSERS = 'set-users';
 export const SETLOADING = Symbol('set-loading');
+export const FETCHUSER = Symbol('fetch-user');
 
 export const createAddUserAction = (user) => {
   return {
@@ -41,6 +42,12 @@ export const createSetUsersAction = (user) => ({
   payload:user,
 })
 
+export const fetchUser = (user) => ({
+  type:FETCHUSER,
+  payload:user,
+})
+
+
 //由于使用了redux-promise中间件，因此，允许action是一个promise，
 // 在promise中，如果要触发action，则使用resolve
 // export const fetchUser = () => {
@@ -58,9 +65,9 @@ export const createSetUsersAction = (user) => ({
 
 //单独把payload设置为promise   type如果是Symbol的话logger显示的是promise，而不是数据
 // 如果用此方法需要把此类型改为字符串类型
-export function fetchUser() {
-  return {
-    type: SETUSERS,
-    payload: getUser().then(res => ({res}))
-  }
-}
+// export function fetchUser() {
+//   return {
+//     type: SETUSERS,
+//     payload: getUser().then(res => ({res}))
+//   }
+// }
