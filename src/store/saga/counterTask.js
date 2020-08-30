@@ -1,5 +1,5 @@
 import { fork, take, delay, put, race, call } from "redux-saga/effects"
-import { actionTypes, increase } from "../action/counter"
+import { actionsType, createIncreaseAction } from "../action/count"
 
 /**
  * 自动增加和停止的流程控制
@@ -7,15 +7,15 @@ import { actionTypes, increase } from "../action/counter"
  */
 function* autoTask() {
     while (true) {
-        yield take(actionTypes.autoIncrease); //只监听autoIncrease
+        yield take(actionsType.autoIncrease); //只监听autoIncrease
         yield race({
             autoIncrease: call(function* () {
                 while (true) {
                     yield delay(2000);
-                    yield put(increase());
+                    yield put(createIncreaseAction());
                 }
             }),
-            cancel: take(actionTypes.stopAutoIncrease)
+            cancel: take(actionsType.stopAutoIncrease)
         })
     }
 }

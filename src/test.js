@@ -1,28 +1,19 @@
 import store from './store/index';
 
-import {createIncreaseAction, createDecreaseAction, createAsyncIncreaseAction, createAsyncDecreaseAction, autoIncrease, stopAutoIncrease} from './store/action/count'
-import {fetchUser} from './store/action/usersAction'
+import {increase, decrease, asyncIncrease, asyncDecrease, add} from './store/action/counter/index';
 
-window.autoIncrease = function(){
-  store.dispatch(autoIncrease());
+window.add = function(n){
+  store.dispatch(add(n));
 }
-window.stopAutoIncrease = function(){
-  store.dispatch(stopAutoIncrease());
-}
-
-window.fetchUser = function () {
-  store.dispatch(fetchUser());
-}
-
-window.increase = function () {
-  store.dispatch(createIncreaseAction());
+window.increase = function(){
+  store.dispatch(increase());
 }
 window.decrease = function () {
-  store.dispatch(createDecreaseAction());
+  store.dispatch(decrease());
 }
 window.asyncIncrease = function () {
-  store.dispatch(createAsyncIncreaseAction());
+  store.dispatch(asyncIncrease());
 }
 window.asyncDecrease = function () {
-  store.dispatch(createAsyncDecreaseAction());
+  store.dispatch(asyncDecrease());
 }

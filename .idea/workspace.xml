@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ee056b-29df-4afb-8abc-ed55eda71d93" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2019-08-20-13-18-58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2019-08-20-13-29-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/2019-08-20-14-23-05.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/saga/counterTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/saga/counterTask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/saga/counterTask5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/saga/counterTask5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
     </list>
@@ -35,7 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1g86nmWo94oof82LPFykQ1ktXV4" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
@@ -74,6 +71,7 @@
       <updated>1597484041345</updated>
       <workItem from="1597484042565" duration="3225000" />
       <workItem from="1597564622911" duration="1640000" />
+      <workItem from="1598787774683" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Redux核心概念">
       <created>1597565574848</created>

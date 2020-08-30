@@ -1,5 +1,5 @@
 import { takeEvery, take, delay, put, fork, cancel } from "redux-saga/effects"
-import { actionTypes, increase, decrease } from "../action/counter"
+import { actionTypes, createIncreaseAction, createDecreaseAction } from "../action/count"
 
 function* asyncIncrease() {
     let task;
@@ -13,14 +13,14 @@ function* asyncIncrease() {
         }
         task = yield fork(function* () {
             yield delay(2000)
-            yield put(increase());
+            yield put(createIncreaseAction());
         })
     }
 }
 
 function* asyncDecrease() {
     yield delay(2000);
-    yield put(decrease())
+    yield put(createDecreaseAction())
 }
 
 export default function* () {
