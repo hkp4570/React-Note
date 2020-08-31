@@ -1,5 +1,5 @@
-import {take, takeEvery} from 'redux-saga/effects';
-import {actionsType} from '../action/count'
+import {take, takeEvery, delay, put} from 'redux-saga/effects';
+import {actionsType, createIncreaseAction, createDecreaseAction} from '../action/count'
 
 /**
  * 监听某个action
@@ -14,10 +14,14 @@ import {actionsType} from '../action/count'
 
 
 function* asyncIncrease() {
+  yield delay(2000);
+  yield put(createIncreaseAction());
   console.log("触发了asyncIncrease")
 }
 
 function* asyncDecrease() {
+  yield delay(2000);
+  yield put(createDecreaseAction());
   console.log("触发了asyncDecrease")
 }
 
