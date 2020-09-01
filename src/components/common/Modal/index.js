@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.css"
-import types from "../../../utils/commonTypes"
+import types from '../../../utils/commonTypes'
 import PropTypes from "prop-types"
 
 Modal.defaultProps = { //默认属性
