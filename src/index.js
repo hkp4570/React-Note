@@ -1,5 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App'
+import counterModel from './models/counter'
+import App from './App';
+import dva from 'dva';
 
-ReactDOM.render(<App />,document.getElementById('root'));
+const app = dva();
+
+app.model(counterModel);
+
+app.router(() => <App />);
+
+app.start('#root');
+
