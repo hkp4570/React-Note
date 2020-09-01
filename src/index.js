@@ -1,13 +1,16 @@
 import React from 'react';
-import counterModel from './models/counter'
-import App from './App';
+import counterModel from './models/counter';
+import routerConfig from './routerConfig';
 import dva from 'dva';
+import {createBrowserHistory} from 'history';
 
-const app = dva();
+const app = dva({
+  history: createBrowserHistory()
+});
 
 app.model(counterModel);
 
-app.router(() => <App />);
+app.router(routerConfig);
 
 app.start('#root');
 
