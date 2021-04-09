@@ -1,0 +1,7 @@
+.exit-active{
+    opacity: 0;
+}
+.enter-active{
+    opacity: 1;
+    transition: all .5s linear;
+}
