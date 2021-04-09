@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 
-function noMatch(props) {
+function noMatch() {
     return (
         <Router>
             <ul>
@@ -19,7 +18,7 @@ function noMatch(props) {
 
             <Switch>
                 <Route exact path='/'>
-                    <Home></Home>
+                    <Home/>
                 </Route>
                 <Route exact path='/will_redirect'>
                     <WillRedirect />   

@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Switch, Route, Link, Prompt} from 'react-router
 // into a form but haven't submitted it yet, and
 // you don't want them to lose it.
 // 当用户输入部分表单，当离开改页面是进行提示
-function preventingTransition(props) {
+function preventingTransition() {
     return (
         <Router>
             <ul>

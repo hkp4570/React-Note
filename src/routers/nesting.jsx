@@ -10,7 +10,7 @@ import {
 
 
 // 嵌套路由
-function App(props) {
+function App() {
   return (
     <Router>
       <ul>

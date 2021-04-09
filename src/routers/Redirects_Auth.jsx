@@ -2,7 +2,7 @@ import React, {useContext, useState} from "react";
 import { BrowserRouter as Router, Link, Route, Switch, useHistory, useLocation, Redirect } from "react-router-dom";
 
 // 1. 当前是否登录，登录信息通过context放在最顶层
-function Redirects_Auth(props) {
+function Redirects_Auth() {
   return (
     <ProvideAuth>
         <div>

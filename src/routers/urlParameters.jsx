@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 
 
-function App(props) {
+function App() {
   return (
     <Router>
       <ul>
