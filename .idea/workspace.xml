@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31ee056b-29df-4afb-8abc-ed55eda71d93" name="默认的" comment="按功能划分目录">
-      <change afterPath="$PROJECT_DIR$/src/pages/todos/views/index.jsx" afterDir="false" />
+    <list default="true" id="31ee056b-29df-4afb-8abc-ed55eda71d93" name="默认的" comment="添加，删除，更改状态">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/todos/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todos/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todos/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/todos/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todos/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/todos/views/todos.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/filter/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/filter/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/filter/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/filter/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/filter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/filter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/filter/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/filter/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/filter/views/filter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/filter/views/filter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todos/views/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todos/views/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597484041345</updated>
       <workItem from="1597484042565" duration="3225000" />
-      <workItem from="1627006100870" duration="11106000" />
+      <workItem from="1627006100870" duration="11160000" />
+      <workItem from="1627029746225" duration="3097000" />
     </task>
     <task id="LOCAL-00001" summary="按功能划分目录">
       <created>1626952312267</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626952312267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加，删除，更改状态">
+      <created>1627025532124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627025532124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="按功能划分目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="按功能划分目录" />
+    <MESSAGE value="添加，删除，更改状态" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加，删除，更改状态" />
   </component>
 </project>

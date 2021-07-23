@@ -2,11 +2,10 @@ import React, {useState} from 'react';
 import {connect} from 'react-redux';
 
 import {addTodo, removeTodo, toggleTodo} from '../actions.js';
+import {FilterTypes} from "../../constants";
 
 function Index(props){
   const [value, setValue] = useState('');
-  const { onRemove, onToggle } = props;
-  console.log(props)
   const changeValue = e => {
     setValue(e.target.value);
   }
@@ -41,9 +40,22 @@ function Index(props){
   )
 }
 
+const filterData = (data, f) => {
+  switch (f){
+    case FilterTypes.ALL:
+      return data;
+    case FilterTypes.COMPLETED:
+      return data.filter(e => e.complete)
+    case FilterTypes.UNCOMPLETED:
+      return data.filter(e => !e.complete)
+    default:
+      return data
+  }
+}
+
 const mapStateToProps = state => {
   return {
-    todoData: state
+    todoData: filterData(state.todos, state.filter),
   }
 }
 const mapDispatchToProps = dispatch => {
