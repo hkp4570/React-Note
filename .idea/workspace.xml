@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31ee056b-29df-4afb-8abc-ed55eda71d93" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/App.jsx" afterDir="false" />
+    <list default="true" id="31ee056b-29df-4afb-8abc-ed55eda71d93" name="默认的" comment="按功能划分目录">
+      <change afterPath="$PROJECT_DIR$/src/pages/todos/views/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todos/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todos/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todos/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todos/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todos/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todos/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todos/views/todos.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +56,32 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.rainbow.brackets" />
     <property name="ts.external.directory.path" value="D:\webstorm\WebStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\webs\hkp-React\src\pages" />
       <recent name="D:\webs\react\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -74,11 +95,20 @@
       <option name="presentableId" value="Default" />
       <updated>1597484041345</updated>
       <workItem from="1597484042565" duration="3225000" />
+      <workItem from="1627006100870" duration="11106000" />
     </task>
+    <task id="LOCAL-00001" summary="按功能划分目录">
+      <created>1626952312267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626952312267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="SHOW_OTHER_BRANCHES" value="true" />
@@ -102,5 +132,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="按功能划分目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="按功能划分目录" />
   </component>
 </project>
