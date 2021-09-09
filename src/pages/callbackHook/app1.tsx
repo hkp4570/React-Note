@@ -29,7 +29,7 @@ function Parent() {
  * 但是传递给test的 txt的值并没有发生变化，并且test组件使用PureComponent
  * 所有只能是onClick函数引用发生了变化
  * */
-function App(props) {
+function App() {
   return <Parent />;
 }
 
