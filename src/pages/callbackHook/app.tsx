@@ -1,5 +1,4 @@
 import React, { useCallback, useState, memo } from 'react';
-import { useEffect } from 'react';
 
 class Test extends React.PureComponent<any> {
   render() {
@@ -24,25 +23,25 @@ function Son({ txt, onClick }: any) {
     </div>
   );
 }
-const MemoSon = memo(Son);
+
+// const MemoSon = memo(Son);
+
 function Parent() {
   const [n, setN] = useState(0);
   const [txt, setTxt] = useState(123);
   const handleClick = useCallback(
     t => {
-      console.log(t);
       setTxt(txt + 1);
     },
     [txt],
   );
   console.log('parent render');
-  useEffect(() => {
-    setN(n + 1);
-  }, []);
+
   return (
     <div>
       {/* <Test txt={txt} onClick={handleClick} /> */}
-      <MemoSon txt={txt} onClick={handleClick} />
+      {/* <MemoSon txt={txt} onClick={handleClick} /> */}
+      <Son txt={txt} />
       <h1>n:{n}</h1>
       <button onClick={() => setN(n + 1)}>n+1</button>
     </div>
