@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '@/pages/callbackHook/app';
+import App from '@/pages/contextHook/app';
 
 export default () => {
   return (
