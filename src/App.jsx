@@ -1,9 +1,10 @@
 import React from 'react';
+import Index from '@/pages/usePersistedState/index';
 
-function App(props) {
+function App() {
   return (
     <div>
-      APP
+      <Index/>
     </div>
   );
 }
